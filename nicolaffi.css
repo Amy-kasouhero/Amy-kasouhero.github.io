@@ -7,7 +7,7 @@ body{
 
 .header{
 	background-color: black;
-	background-image: url("drawings/title_icon.jpg");
+	background-image: url("title_icon.jpg");
 	background-size: 190px;
 	background-repeat: no-repeat;
 	background-position: 1000px bottom;
