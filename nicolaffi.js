@@ -1,5 +1,5 @@
         //配列は0から
-      var manga = [ "<img src='manga/manga001.jpg'>",
+      var manga = [ "<img src='manga001.jpg'>",
                     
                   ]
         //配列は0から
@@ -7,7 +7,7 @@
                       
                     ]
         //配列は0から
-      var diary = ["<iframe src='diary/diary001.html'>"
+      var diary = ["<iframe src='diary001.html'>"
 
                   ]
 
