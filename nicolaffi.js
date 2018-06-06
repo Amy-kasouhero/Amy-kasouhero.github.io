@@ -10,7 +10,14 @@
         //配列は0から
       var diary = [ "<iframe src='diary001.html'>",
                     "<iframe src='diary002.html'>",
-                    "<iframe src='diary003.html'>"
+                    "<iframe src='diary003.html'>",
+                    "<iframe src='diary004.html'>",
+                    "<iframe src='diary005.html'>",
+                    "<iframe src='diary006.html'>",
+                    "<iframe src='diary007.html'>",
+                    "<iframe src='diary008.html'>",
+                    "<iframe src='diary009.html'>",
+                    "<iframe src='diary010.html'>"
 
                   ]
 
