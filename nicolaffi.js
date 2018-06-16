@@ -1,6 +1,12 @@
         //配列は0から
       var manga = [ "<img src='manga001b.jpg'>",
-                    "<img src='manga002a.jpg'>"
+                    "<img src='manga002a.jpg'>",
+                    "<img src='manga003a.jpg'>",
+                    "<img src='manga004a.jpg'>",
+                    "<img src='manga005a.jpg'>",
+                    "<img src='manga006a.jpg'>",
+                    "<img src='manga007a.jpg'>",
+                    "<img src='manga008a.jpg'>"
                     
                   ]
         //配列は0から
