@@ -216,7 +216,8 @@ body{
 .contents{
 	display: inline-block;
 	width: 650px;
-	overflow-y: scroll;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 	height: 1200px;
 	margin-left: 60px;
 	margin-top: 60px;
@@ -233,7 +234,7 @@ body{
 }
 
 .contents iframe{
-	width: 650px;
+	width: 100%;
 	height: 1200px;
 	background-color: white;
 }
