@@ -236,8 +236,6 @@ body{
 .contents iframe{
 	width: 650px;
 	height: 1200px;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
 	background-color: white;
 }
 
