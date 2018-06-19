@@ -213,14 +213,20 @@ body{
 	display: inline-block;
 }
 
-.contents{
+.frame_contents{
 	display: inline-block;
 	width: 650px;
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
 	height: 1200px;
 	margin-left: 60px;
 	margin-top: 60px;
+}
+
+.contents{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 .contents img{
