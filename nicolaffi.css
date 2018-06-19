@@ -35,7 +35,7 @@ body{
 }
 
 .main{
-	height: 1250px;
+	height: 100%;
 }
 
 .index{
@@ -216,7 +216,8 @@ body{
 .contents{
 	display: inline-block;
 	width: 650px;
-	overflow: scroll;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	height: 1200px;
 	margin-left: 60px;
 	margin-top: 60px;
@@ -235,7 +236,26 @@ body{
 .contents iframe{
 	width: 650px;
 	height: 1200px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	background-color: white;
+}
+
+#ads{
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	width: 300px;
+	margin: 10px;
+}
+
+#ads_frame{
+	margin: 10px;
+	width: 280px;
+}
+
+#ads_frame img{
+	width: 280px;
 }
 
 .section-style{
@@ -259,5 +279,3 @@ input, textarea{
 .footer{
 	background-color: gray;
 }
-
-
