@@ -1,3 +1,3 @@
 # Amy-kasouhero.github.io
 
-# Amyが運営している仮想ヒーローです
+# Amyが運営しているサイト「仮想ヒーロー」です
