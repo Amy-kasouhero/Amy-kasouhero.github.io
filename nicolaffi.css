@@ -249,13 +249,33 @@ header{
 	margin: 10px;
 }
 
-#ads_frame{
+#ads_index img{
 	margin: 10px;
 	width: 280px;
 }
 
-#ads_frame img{
+#ads_index h3{
+	color: orange;
+	font-size: 35px;
+	text-align: center;
+}
+
+#ads_index p{
+	color: orange;
+	text-align: center;
+}
+
+#ads_frame{
+	margin: 25px;
 	width: 280px;
+}
+
+#ads_frame img{
+	width: 250px;
+}
+
+#ads_frame h4{
+	color: orange;
 }
 
 .section-style{
