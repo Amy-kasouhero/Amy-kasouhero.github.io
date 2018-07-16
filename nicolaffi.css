@@ -249,6 +249,11 @@ header{
 	margin: 10px;
 }
 
+.line{
+	text-decoration: none;
+	border-bottom:1px solid black;
+}
+
 #ads_index img{
 	margin: 10px;
 	width: 280px;
