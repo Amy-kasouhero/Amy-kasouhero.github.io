@@ -226,7 +226,6 @@ header{
 
 .contents img{
 	width: 650px;
-	vertical-align: bottom;
 }
 
 .contents p{
@@ -246,7 +245,7 @@ header{
 	vertical-align: top;
 	background-color: white;
 	width: 300px;
-	margin: 10px;
+	margin: 10px 10px 10px 50px;
 }
 
 .line{
