@@ -9,6 +9,9 @@
                     "<img src='manga008a.jpg'>"
                     
                   ]
+      var onesyota_manga = [
+                    "<img src='onesyota_manga001a.jpg'><img src='onesyota_manga001b.jpg'>"
+                  ]
         //配列は0から
       var picture = [ "<img src=''>"
                       
