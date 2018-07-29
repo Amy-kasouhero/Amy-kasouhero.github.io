@@ -13,6 +13,13 @@
                     "<img src='onesyota_manga001a.jpg'>",
                     "<img src='onesyota_manga002a.jpg'>"
                   ]
+      var lipcream_manga = [
+                    "<img src='lipcream_manga001a.jpg'>",
+                    "<img src='lipcream_manga002a.jpg'>",
+                    "<img src='lipcream_manga003a.jpg'>",
+                    "<img src='lipcream_manga004a.jpg'>",
+                    "<img src='lipcream_manga005a.jpg'>"
+                  ]
         //配列は0から
       var picture = [ "<img src=''>"
                       
