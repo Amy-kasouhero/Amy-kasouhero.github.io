@@ -44,8 +44,7 @@
                     "<iframe src='diary012.html'>",
                     "<iframe src='diary013.html'>",
                     "<iframe src='diary014.html'>",
-                    "<iframe src='diary015.html'>",
-                    "<iframe src='diary016.html'>"
+                    "<iframe src='diary015.html'>"
 
                   ]
 
