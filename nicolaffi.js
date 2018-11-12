@@ -20,10 +20,7 @@
                     "<img src='lipcream_manga004a.jpg'>",
                     "<img src='lipcream_manga005a.jpg'>"
                   ]
-        //配列は0から
-      var picture = [ "<img src=''>"
-                      
-                    ]
+
         //配列は0から
       var diary = [ "<iframe src='diary001.html'>",
                     "<iframe src='diary002.html'>",
@@ -37,6 +34,17 @@
                     "<iframe src='diary010.html'>"
 
                   ]
+
+      var drawing = [ "<iframe src='drawing001.html'>",
+                      "<iframe src='drawing002.html'>",
+                      "<iframe src='drawing003.html'>",
+                      "<iframe src='drawing004.html'>",
+                      "<iframe src='drawing005.html'>",
+                      "<iframe src='drawing006.html'>",
+                      "<iframe src='drawing007.html'>",
+                      "<iframe src='drawing008.html'>"
+      
+                    ]
 
         //関数定義
       function expression(amy_productions){

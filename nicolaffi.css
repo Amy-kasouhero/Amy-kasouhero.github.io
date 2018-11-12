@@ -68,7 +68,7 @@ header{
 	font-size: 30px;
 	margin: 10px 0;
 	display: block;
-	padding-left: 20px;
+	text-align: center;
 	letter-spacing: 5px;
 }
 
@@ -112,7 +112,7 @@ header{
 
 .picture_index{
 	border: 2px solid black;
-	margin: 30px 10px 150px 10px;
+	margin: 30px 10px 10px 10px;
 	background-color: white;
 }
 
@@ -124,7 +124,8 @@ header{
 
 .picture_anchor{
 	font-size: 30px;
-	padding-left: 20px;
+	text-align: center;
+	letter-spacing: 5px;
 	margin: 10px 0;
 	display: block;
 }
@@ -164,6 +165,65 @@ header{
 }
 
 .picture_drawings{
+	width: 176px;
+	height: 176px;
+}
+
+.drawing_index{
+	border: 2px solid black;
+	margin: 30px 10px 150px 10px;
+	background-color: white;
+}
+
+.drawing_index h2{
+	text-align: center;
+	font-size: 35px;
+	color: #ff1493;
+}
+
+.drawing_anchor{
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 5px;
+	margin: 10px 0;
+	display: block;
+}
+
+.drawing_anchor:hover{
+	background-color: #ffd700;
+	transition: background-color 0.5s;
+}
+
+#drawing_expansion{
+	display: none;
+}
+
+#drawing_open{
+	height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.drawing_index input:checked ~ #drawing_open{
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+#drawing_open a:hover{
+	background-color: #ffd700;
+	transition: background-color 0.5s;
+	cursor:pointer;
+}
+
+#drawing_open a{
+	display: block;
+	padding-left: 5px;
+	font-size: 0.8em;
+}
+
+.drawing_drawings{
 	width: 176px;
 	height: 176px;
 }
