@@ -5,6 +5,7 @@ body{
 	padding:0% 0.5%;
 }
 
+/* header要素 */
 header{
 	background-color: black;
 	padding-left: 100px;
@@ -21,6 +22,7 @@ header{
 	font-size: 150px;
 }
 
+/* 著作権警告 */
 .attention{
 	border: 2px solid black;
 	line-height: 1em;
@@ -34,10 +36,12 @@ header{
 	padding-bottom: 0.5em;
 }
 
+/* main要素 */
 .main{
 	height: 100%;
 }
 
+/* index要素 */
 .index{
 	background-color: #ffd700;
 	float: left;
@@ -51,6 +55,7 @@ header{
 	height: 400px;
 }
 
+/* 漫画の目次 */
 .manga_index{
 	border: 2px solid black;
 	margin: 10px;
@@ -105,11 +110,12 @@ header{
 	padding-left: 10px;
 }
 
-.manga_drawings{
+.manga_icon{
 	width: 176px;
 	height: 176px;
 }
 
+/* 雑記目次 */
 .picture_index{
 	border: 2px solid black;
 	margin: 30px 10px 10px 10px;
@@ -164,11 +170,12 @@ header{
 	font-size: 0.8em;
 }
 
-.picture_drawings{
+.picture_icon{
 	width: 176px;
 	height: 176px;
 }
 
+/* ラクガキ目次 */
 .drawing_index{
 	border: 2px solid black;
 	margin: 30px 10px 150px 10px;
@@ -223,11 +230,83 @@ header{
 	font-size: 0.8em;
 }
 
-.drawing_drawings{
+.drawing_icon{
 	width: 176px;
 	height: 176px;
 }
 
+/* 作品表示欄 */
+.contents{
+	display: inline-block;
+	width: 650px;
+	height: 1200px;
+	margin-left: 60px;
+	margin-top: 60px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.contents img{
+	width: 650px;
+}
+
+.contents p{
+	width: 650px;
+	background-color: white;
+}
+
+.contents iframe{
+	width: 100%;
+	max-width: 100%;
+	height: 1200px;
+	background-color: white;
+}
+
+/* 広告 */
+#ads{
+	display: inline-block;
+	vertical-align: top;
+	background-color: white;
+	width: 300px;
+	margin: 10px 10px 10px 50px;
+}
+
+.line{
+	text-decoration: none;
+	border-bottom:1px solid black;
+}
+
+#ads_index img{
+	margin: 10px;
+	width: 280px;
+}
+
+#ads_index h3{
+	color: orange;
+	font-size: 35px;
+	text-align: center;
+}
+
+#ads_index p{
+	color: orange;
+	text-align: center;
+}
+
+#ads_frame{
+	margin: 25px;
+	width: 280px;
+}
+
+#ads_frame img{
+	width: 250px;
+}
+
+#ads_frame h4{
+	color: orange;
+}
+
+/* 自己紹介 */
 .profile{
 	border: 2px solid black;
 	margin: 10px;
@@ -273,75 +352,11 @@ header{
 	display: inline-block;
 }
 
-.contents{
-	display: inline-block;
-	width: 650px;
-	height: 1200px;
-	margin-left: 60px;
-	margin-top: 60px;
-	overflow-y: auto;
-	overflow-x: hidden;
-	-webkit-overflow-scrolling: touch;
+.footer{
+	background-color: gray;
 }
 
-.contents img{
-	width: 650px;
-}
-
-.contents p{
-	width: 650px;
-	background-color: white;
-}
-
-.contents iframe{
-	width: 100%;
-	max-width: 100%;
-	height: 1200px;
-	background-color: white;
-}
-
-#ads{
-	display: inline-block;
-	vertical-align: top;
-	background-color: white;
-	width: 300px;
-	margin: 10px 10px 10px 50px;
-}
-
-.line{
-	text-decoration: none;
-	border-bottom:1px solid black;
-}
-
-#ads_index img{
-	margin: 10px;
-	width: 280px;
-}
-
-#ads_index h3{
-	color: orange;
-	font-size: 35px;
-	text-align: center;
-}
-
-#ads_index p{
-	color: orange;
-	text-align: center;
-}
-
-#ads_frame{
-	margin: 25px;
-	width: 280px;
-}
-
-#ads_frame img{
-	width: 250px;
-}
-
-#ads_frame h4{
-	color: orange;
-}
-
+/* お問い合わせフォーム（未実装） */
 .section-style{
 	border-bottom: 2px solid gray;
 }
@@ -360,6 +375,3 @@ input, textarea{
   color: #889eab;
 }
 
-.footer{
-	background-color: gray;
-}
