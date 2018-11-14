@@ -1,0 +1,32 @@
+    #date{
+      text-align: left;
+      font-size: 80%;
+    }
+
+    body{
+      background-color: #f7f8e0;
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    #title{
+      text-align: left;
+    }
+
+    #text p{
+      letter-spacing: -1px;
+      margin: 5em 0em;
+    }
+
+    #text img{
+      width: 500px;
+    }
+
+    .smaller{
+      font-size: 80%;
+    }
+
+    .comment{
+      display: inline-block;
+      margin-bottom: 50px;
+    }
