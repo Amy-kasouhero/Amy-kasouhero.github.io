@@ -2,19 +2,19 @@
       var mangas = [ "<img src='comics/manga001b.jpg'>",
                     "<img src='comics/manga002a.jpg'>",
                     "<img src='comics/manga003a.jpg'>",
-                    "<img src='comics/manga004a.jpg'>",
-                    "<img src='comics/manga005a.jpg'>",
-                    "<img src='comics/manga006a.jpg'>",
-                    "<img src='comics/manga007a.jpg'>",
-                    "<img src='comics/manga008a.jpg'>",
-                    "<img src='comics/manga009a.jpg'>",
-                    "<img src='comics/manga010a.jpg'>",
-                    "<img src='comics/manga011a.jpg'>",
-                    "<img src='comics/manga012a.jpg'>",
-                    "<img src='comics/manga013a.jpg'>",
-                    "<img src='comics/manga014a.jpg'>",
-                    "<img src='comics/manga015a.jpg'>",
-                    "<img src='comics/manga016a.jpg'>"
+                    "<img src='comics/manga004.jpg'>",
+                    "<img src='comics/manga005.jpg'>",
+                    "<img src='comics/manga006.jpg'>",
+                    "<img src='comics/manga007.jpg'>",
+                    "<img src='comics/manga008.jpg'>",
+                    "<img src='comics/manga009.jpg'>",
+                    "<img src='comics/manga010.jpg'>",
+                    "<img src='comics/manga011.jpg'>",
+                    "<img src='comics/manga012.jpg'>",
+                    "<img src='comics/manga013.jpg'>",
+                    "<img src='comics/manga014.jpg'>",
+                    "<img src='comics/manga015.jpg'>",
+                    "<img src='comics/manga016.jpg'>"
                     
                   ]
       var onesyota_manga = [
