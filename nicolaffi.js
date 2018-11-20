@@ -44,7 +44,13 @@
                       "<iframe src='diaries/diary012.html'>",
                       "<iframe src='diaries/diary013.html'>",
                       "<iframe src='diaries/diary014.html'>",
-                      "<iframe src='diaries/diary015.html'>"
+                      "<iframe src='diaries/diary015.html'>",
+                      "<iframe src='diaries/diary016.html'>",
+                      "<iframe src='diaries/diary017.html'>",
+                      "<iframe src='diaries/diary018.html'>",
+                      "<iframe src='diaries/diary019.html'>",
+                      "<iframe src='diaries/diary020.html'>",
+                      "<iframe src='diaries/diary021.html'>"
 
                     ]
 
